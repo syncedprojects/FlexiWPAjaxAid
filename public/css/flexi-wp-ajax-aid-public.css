@@ -1,0 +1,67 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.flexi-wp-ajax-aid-pagination-links {
+    list-style: none;
+}
+
+.flexi-wp-ajax-aid-pagination-links li {
+    display: inline;
+}
+
+.prev.page-numbers,
+.next.page-numbers {
+    float: none !important;
+}
+
+.ajax-loader-div {
+    padding-top: 15px;
+    visibility: hidden;
+    text-align: center;
+}
+
+.availability-count {
+    float: left;
+}
+
+.flexi-wp-ajax-aid-orderby-select {
+    float: right;
+}
+
+.clearboth {
+    clear: both;
+}
+
+.page-numbers {    
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.flexi-wp-ajax-aid-posts-filters {
+    float: left;
+    border: 1px solid #ddd;
+    width: 30%;
+    padding: 10px;
+}
+
+.flexi-wp-ajax-aid-posts-items-div {
+    float: right;
+    border: 1px solid #ddd;
+    width: 70%;
+    padding: 10px;
+}
+
+@media ( max-width: 767 ) {
+
+    .flexi-wp-ajax-aid-posts-filters {
+        border: 1px solid #ddd;
+        width: 100%;
+    }
+
+    .flexi-wp-ajax-aid-posts-items-div {
+        border: 1px solid #ddd;
+        width: 100%;
+    }
+}

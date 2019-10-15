@@ -1,0 +1,14 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#fwpaa_generated_shortcode,
+#fwpaa_generated_shortcode_php,
+.post-attributes-fwpaa_generated_shortcode {
+    width: 100%;
+}
+
+#fwpaa_posts_per_page {
+    padding-left: 5px;
+}
